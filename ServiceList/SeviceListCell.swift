@@ -9,6 +9,8 @@ import UIKit
 
 class ServiceListCell: UICollectionViewCell {
     
+    public var starButtonClosure: (() -> ())?
+    
     // MARK: - Private Properties
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
@@ -30,13 +32,12 @@ class ServiceListCell: UICollectionViewCell {
     
     private lazy var starButton: UIButton = {
         let button = UIButton()
-        button.backgroundColor = .systemGray.withAlphaComponent(0.1)
-        button.layer.cornerRadius = 4
+        button.addTarget(self, action: #selector(starButtonTapped), for: .touchUpInside)
         return button
     }()
     
     private lazy var starButtonImageView: UIImageView = {
-        let image = UIImage(named: "star")
+        let image = UIImage(named: "EllipsisH")
         let imageView = UIImageView(image: image)
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -61,7 +62,7 @@ class ServiceListCell: UICollectionViewCell {
     }()
     
     private lazy var packagesImageView: UIImageView = {
-        let image = UIImage(named: "bag")
+        let image = UIImage(named: "Package")
         let imageView = UIImageView(image: image)
         return imageView
     }()
@@ -167,5 +168,9 @@ class ServiceListCell: UICollectionViewCell {
     
     static var reuseIdentifier: String {
         return String.init(describing: self.self)
+    }
+    
+    @objc private func starButtonTapped() {
+        starButtonClosure?()
     }
 }

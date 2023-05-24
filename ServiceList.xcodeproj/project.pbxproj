@@ -58,6 +58,7 @@
 		7B2C49E72A1B77E500173E45 = {
 			isa = PBXGroup;
 			children = (
+				7B2C4A262A1B9E7300173E45 /* Resources */,
 				7B2C49F22A1B77E500173E45 /* ServiceList */,
 				7B2C49F12A1B77E500173E45 /* Products */,
 			);
@@ -74,7 +75,6 @@
 		7B2C49F22A1B77E500173E45 /* ServiceList */ = {
 			isa = PBXGroup;
 			children = (
-				7B2C4A262A1B9E7300173E45 /* Resources */,
 				7B2C49F32A1B77E500173E45 /* AppDelegate.swift */,
 				7B2C49F72A1B77E500173E45 /* ViewController.swift */,
 				7B2C4A072A1B794C00173E45 /* SeviceListCell.swift */,
@@ -91,6 +91,7 @@
 				7B2C4A272A1B9E8600173E45 /* fonts */,
 			);
 			name = Resources;
+			path = ServiceList;
 			sourceTree = "<group>";
 		};
 		7B2C4A272A1B9E8600173E45 /* fonts */ = {

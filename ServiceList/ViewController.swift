@@ -8,8 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    let font: String = "Outfit-Regular.ttf"
     
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -26,17 +24,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // MARK: - Add Subviews
         view.addSubview(collectionView)
         
+        // MARK: - Setup Constraints
         let collectioViewConstaints = [
             collectionView.topAnchor.constraint(equalTo: view.topAnchor),
-            collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
+            collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
+            collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor)
         ]
         
         NSLayoutConstraint.activate(collectioViewConstaints)
+        
     }
+    
 }
 
 extension ViewController: UICollectionViewDataSource {
@@ -45,7 +47,10 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ServiceListCell.reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ServiceListCell.reuseIdentifier, for: indexPath) as! ServiceListCell
+        cell.starButtonClosure = {
+            print(indexPath)
+        }
         return cell
     }
 }
@@ -55,7 +60,10 @@ extension ViewController: UICollectionViewDelegate {}
 extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = collectionView.frame.width
-        return CGSize(width: width - 20, height: 178)
+        return CGSize(width: width - (2*20), height: 178)
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 12
+    }
 }
