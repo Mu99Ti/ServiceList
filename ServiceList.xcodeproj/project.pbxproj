@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		7B2C49F42A1B77E500173E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C49F32A1B77E500173E45 /* AppDelegate.swift */; };
-		7B2C49F62A1B77E500173E45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C49F52A1B77E500173E45 /* SceneDelegate.swift */; };
 		7B2C49F82A1B77E500173E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C49F72A1B77E500173E45 /* ViewController.swift */; };
-		7B2C49FB2A1B77E500173E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C49F92A1B77E500173E45 /* Main.storyboard */; };
 		7B2C49FD2A1B77E700173E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C49FC2A1B77E700173E45 /* Assets.xcassets */; };
-		7B2C4A002A1B77E700173E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C49FE2A1B77E700173E45 /* LaunchScreen.storyboard */; };
+		7B2C4A082A1B794C00173E45 /* SeviceListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C4A072A1B794C00173E45 /* SeviceListCell.swift */; };
+		7B2C4A0A2A1B7C4600173E45 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C4A092A1B7C4600173E45 /* DetailsView.swift */; };
+		7B2C4A362A1B9E9900173E45 /* Outfit-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A292A1B9E9900173E45 /* Outfit-VariableFont_wght.ttf */; };
+		7B2C4A372A1B9E9900173E45 /* Outfit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A2B2A1B9E9900173E45 /* Outfit-Bold.ttf */; };
+		7B2C4A382A1B9E9900173E45 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A2C2A1B9E9900173E45 /* Outfit-Regular.ttf */; };
+		7B2C4A392A1B9E9900173E45 /* Outfit-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A2D2A1B9E9900173E45 /* Outfit-Black.ttf */; };
+		7B2C4A3A2A1B9E9900173E45 /* Outfit-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A2E2A1B9E9900173E45 /* Outfit-Thin.ttf */; };
+		7B2C4A3B2A1B9E9900173E45 /* Outfit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A2F2A1B9E9900173E45 /* Outfit-SemiBold.ttf */; };
+		7B2C4A3C2A1B9E9900173E45 /* Outfit-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A302A1B9E9900173E45 /* Outfit-ExtraLight.ttf */; };
+		7B2C4A3D2A1B9E9900173E45 /* Outfit-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A312A1B9E9900173E45 /* Outfit-ExtraBold.ttf */; };
+		7B2C4A3E2A1B9E9900173E45 /* Outfit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A322A1B9E9900173E45 /* Outfit-Medium.ttf */; };
+		7B2C4A3F2A1B9E9900173E45 /* Outfit-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C4A332A1B9E9900173E45 /* Outfit-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B2C49F02A1B77E500173E45 /* ServiceList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2C49F32A1B77E500173E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B2C49F52A1B77E500173E45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7B2C49F72A1B77E500173E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B2C49FA2A1B77E500173E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B2C49FC2A1B77E700173E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B2C49FF2A1B77E700173E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2C4A012A1B77E700173E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2C4A072A1B794C00173E45 /* SeviceListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeviceListCell.swift; sourceTree = "<group>"; };
+		7B2C4A092A1B7C4600173E45 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		7B2C4A292A1B9E9900173E45 /* Outfit-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		7B2C4A2B2A1B9E9900173E45 /* Outfit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Bold.ttf"; sourceTree = "<group>"; };
+		7B2C4A2C2A1B9E9900173E45 /* Outfit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Regular.ttf"; sourceTree = "<group>"; };
+		7B2C4A2D2A1B9E9900173E45 /* Outfit-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Black.ttf"; sourceTree = "<group>"; };
+		7B2C4A2E2A1B9E9900173E45 /* Outfit-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Thin.ttf"; sourceTree = "<group>"; };
+		7B2C4A2F2A1B9E9900173E45 /* Outfit-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-SemiBold.ttf"; sourceTree = "<group>"; };
+		7B2C4A302A1B9E9900173E45 /* Outfit-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7B2C4A312A1B9E9900173E45 /* Outfit-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7B2C4A322A1B9E9900173E45 /* Outfit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Medium.ttf"; sourceTree = "<group>"; };
+		7B2C4A332A1B9E9900173E45 /* Outfit-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		7B2C49F22A1B77E500173E45 /* ServiceList */ = {
 			isa = PBXGroup;
 			children = (
+				7B2C4A262A1B9E7300173E45 /* Resources */,
 				7B2C49F32A1B77E500173E45 /* AppDelegate.swift */,
-				7B2C49F52A1B77E500173E45 /* SceneDelegate.swift */,
 				7B2C49F72A1B77E500173E45 /* ViewController.swift */,
-				7B2C49F92A1B77E500173E45 /* Main.storyboard */,
+				7B2C4A072A1B794C00173E45 /* SeviceListCell.swift */,
+				7B2C4A092A1B7C4600173E45 /* DetailsView.swift */,
 				7B2C49FC2A1B77E700173E45 /* Assets.xcassets */,
-				7B2C49FE2A1B77E700173E45 /* LaunchScreen.storyboard */,
 				7B2C4A012A1B77E700173E45 /* Info.plist */,
 			);
 			path = ServiceList;
+			sourceTree = "<group>";
+		};
+		7B2C4A262A1B9E7300173E45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C4A272A1B9E8600173E45 /* fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B2C4A272A1B9E8600173E45 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C4A282A1B9E9900173E45 /* Outfit */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		7B2C4A282A1B9E9900173E45 /* Outfit */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C4A2B2A1B9E9900173E45 /* Outfit-Bold.ttf */,
+				7B2C4A2C2A1B9E9900173E45 /* Outfit-Regular.ttf */,
+				7B2C4A2D2A1B9E9900173E45 /* Outfit-Black.ttf */,
+				7B2C4A2E2A1B9E9900173E45 /* Outfit-Thin.ttf */,
+				7B2C4A2F2A1B9E9900173E45 /* Outfit-SemiBold.ttf */,
+				7B2C4A302A1B9E9900173E45 /* Outfit-ExtraLight.ttf */,
+				7B2C4A312A1B9E9900173E45 /* Outfit-ExtraBold.ttf */,
+				7B2C4A322A1B9E9900173E45 /* Outfit-Medium.ttf */,
+				7B2C4A332A1B9E9900173E45 /* Outfit-Light.ttf */,
+				7B2C4A292A1B9E9900173E45 /* Outfit-VariableFont_wght.ttf */,
+			);
+			path = Outfit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +176,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2C4A002A1B77E700173E45 /* LaunchScreen.storyboard in Resources */,
+				7B2C4A3A2A1B9E9900173E45 /* Outfit-Thin.ttf in Resources */,
+				7B2C4A3B2A1B9E9900173E45 /* Outfit-SemiBold.ttf in Resources */,
+				7B2C4A382A1B9E9900173E45 /* Outfit-Regular.ttf in Resources */,
+				7B2C4A372A1B9E9900173E45 /* Outfit-Bold.ttf in Resources */,
+				7B2C4A362A1B9E9900173E45 /* Outfit-VariableFont_wght.ttf in Resources */,
+				7B2C4A3F2A1B9E9900173E45 /* Outfit-Light.ttf in Resources */,
+				7B2C4A3C2A1B9E9900173E45 /* Outfit-ExtraLight.ttf in Resources */,
+				7B2C4A3D2A1B9E9900173E45 /* Outfit-ExtraBold.ttf in Resources */,
 				7B2C49FD2A1B77E700173E45 /* Assets.xcassets in Resources */,
-				7B2C49FB2A1B77E500173E45 /* Main.storyboard in Resources */,
+				7B2C4A3E2A1B9E9900173E45 /* Outfit-Medium.ttf in Resources */,
+				7B2C4A392A1B9E9900173E45 /* Outfit-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2C4A082A1B794C00173E45 /* SeviceListCell.swift in Sources */,
+				7B2C4A0A2A1B7C4600173E45 /* DetailsView.swift in Sources */,
 				7B2C49F82A1B77E500173E45 /* ViewController.swift in Sources */,
 				7B2C49F42A1B77E500173E45 /* AppDelegate.swift in Sources */,
-				7B2C49F62A1B77E500173E45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7B2C49F92A1B77E500173E45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B2C49FA2A1B77E500173E45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7B2C49FE2A1B77E700173E45 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B2C49FF2A1B77E700173E45 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7B2C4A022A1B77E700173E45 /* Debug */ = {
@@ -291,7 +332,6 @@
 				INFOPLIST_FILE = ServiceList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +358,6 @@
 				INFOPLIST_FILE = ServiceList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
